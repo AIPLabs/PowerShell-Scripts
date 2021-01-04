@@ -1,0 +1,1 @@
+Get-WmiObject -Namespace ROOT\SMS\SITE_{Site Code} -Class SMS_Collection -Filter "ObjectPath = '{Console Folder Path}'" | Select Name, CollectionID
